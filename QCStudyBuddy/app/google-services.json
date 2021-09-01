@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "995058508199",
+    "project_id": "qc-study-buddy",
+    "storage_bucket": "qc-study-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995058508199:android:fa888a40d82522eccc1682",
+        "android_client_info": {
+          "package_name": "com.cornely.qcstudybuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995058508199-r0kj5ck2d5r4luaj5laplcid3llm8b91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cornely.qcstudybuddy",
+            "certificate_hash": "a8d8560d68483df757db759e93223a701793d170"
+          }
+        },
+        {
+          "client_id": "995058508199-lbbk7q56v2i5l4em8lqo7uq3pn9k2cbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCBQcv8jhA_0t-ZPwELIUwX88abgnDKrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995058508199-lbbk7q56v2i5l4em8lqo7uq3pn9k2cbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

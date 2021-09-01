@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">QC Study Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="courseIdentifiers">
+        <item>CSCI 12</item>
+        <item>CSCI 48</item>
+        <item>CSCI 80</item>
+        <item>CSCI 81</item>
+        <item>CSCI 82</item>
+        <item>CSCI 84</item>
+        <item>CSCI 85</item>
+        <item>CSCI 86</item>
+        <item>CSCI 87</item>
+        <item>CSCI 88</item>
+        <item>CSCI 90</item>
+        <item>CSCI 100</item>
+        <item>CSCI 111</item>
+        <item>CSCI 112</item>
+        <item>CSCI 120</item>
+        <item>CSCI 211</item>
+        <item>CSCI 212</item>
+        <item>CSCI 220</item>
+        <item>CSCI 240</item>
+        <item>CSCI 313</item>
+        <item>CSCI 314</item>
+        <item>CSCI 316</item>
+        <item>CSCI 317</item>
+        <item>CSCI 320</item>
+        <item>CSCI 323</item>
+        <item>CSCI 331</item>
+        <item>CSCI 332</item>
+        <item>CSCI 334</item>
+        <item>CSCI 335</item>
+        <item>CSCI 340</item>
+        <item>CSCI 342</item>
+        <item>CSCI 343</item>
+        <item>CSCI 344</item>
+        <item>CSCI 348</item>
+        <item>CSCI 352</item>
+        <item>CSCI 355</item>
+        <item>CSCI 361</item>
+        <item>CSCI 363</item>
+        <item>CSCI 365</item>
+        <item>CSCI 368</item>
+        <item>CSCI 370</item>
+        <item>CSCI 381</item>
+        <item>CSCI 383</item>
+        <item>CSCI 385</item>
+        <item>CSCI 390</item>
+        <item>CSCI 391</item>
+        <item>CSCI 393</item>
+        <item>CSCI 395</item>
+        <item>CSCI 398</item>
+        <item>CSCI 611</item>
+        <item>CSCI 612</item>
+        <item>CSCI 613</item>
+        <item>CSCI 620</item>
+        <item>CSCI 640</item>
+        <item>CSCI 655</item>
+        <item>CSCI 688</item>
+        <item>CSCI 700</item>
+        <item>CSCI 701</item>
+        <item>CSCI 707</item>
+        <item>CSCI 711</item>
+        <item>CSCI 715</item>
+        <item>CSCI 718</item>
+        <item>CSCI 722</item>
+        <item>CSCI 731</item>
+        <item>CSCI 732</item>
+        <item>CSCI 733</item>
+        <item>CSCI 734</item>
+        <item>CSCI 744</item>
+        <item>CSCI 745</item>
+        <item>CSCI 746</item>
+        <item>CSCI 748</item>
+        <item>CSCI 761</item>
+        <item>CSCI 762</item>
+        <item>CSCI 764</item>
+        <item>CSCI 765</item>
+        <item>CSCI 766</item>
+        <item>CSCI 780</item>
+        <item>CSCI 782</item>
+        <item>CSCI 783</item>
+        <item>CSCI 784</item>
+        <item>CSCI 786</item>
+        <item>CSCI 788</item>
+        <item>CSCI 790</item>
+        <item>CSCI 792</item>
+        <item>CSCI 793</item>
+        <item>CSCI 794</item>
+        <item>CSCI 796</item>
+        <item>CSCI 799</item>
+    </string-array>
+    <string-array name="courseName">
+        <item>Introduction to Computers and Computation</item>
+        <item>Spreadsheet Programming</item>
+        <item>Problem Solving with Computers</item>
+        <item>Introduction to Web Programming</item>
+        <item>Multimedia Fundamentals and Applications</item>
+        <item>Models of Computation</item>
+        <item>Database Application Programming</item>
+        <item>Science, Computing Tools, and Instrumentation</item>
+        <item>Introduction to Scientific Computing</item>
+        <item>Advanced Productivity Tools for Business</item>
+        <item>Topics in Computing</item>
+        <item>Information and Intelligence</item>
+        <item>Introduction to Algorithmic Problem-Solving</item>
+        <item>Introduction to Algorithmic Problem-Solving in Java</item>
+        <item>Discrete Mathematics for Finance</item>
+        <item>Object-Oriented Programming in C++</item>
+        <item>Object-Oriented Programming in Java</item>
+        <item>Discrete Structures</item>
+        <item>Computer Organization and Assembly Language</item>
+        <item>Data Structures</item>
+        <item>Data Structures for Cross-Disciplinary Minors</item>
+        <item>Principles of Programming Languages</item>
+        <item>Compilers</item>
+        <item>Theory of Computation</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Database Systems</item>
+        <item>Object-Oriented Databases</item>
+        <item>Data Mining and Warehousing</item>
+        <item>Information Organization and Retrieval</item>
+        <item>Operating Systems Principles</item>
+        <item>Operating System Programming</item>
+        <item>Computer Architecture</item>
+        <item>Distributed Systems</item>
+        <item>Data Communications</item>
+        <item>Cryptography</item>
+        <item>Internet and Web Technologies</item>
+        <item>Numerical Methods</item>
+        <item>Artificial Intelligence</item>
+        <item>Computational Finance</item>
+        <item>Computer Graphics</item>
+        <item>Software Engineering</item>
+        <item>Special Topics in Computer Science</item>
+        <item>VT Computer Science Synthesis</item>
+        <item>VT Computer Science Capstone</item>
+        <item>Honors Readings in Computer Science</item>
+        <item>Honors Problems in Computer Science</item>
+        <item>Honors Thesis</item>
+        <item>Research Projects</item>
+        <item>Internship</item>
+        <item>Advanced Programming in C++</item>
+        <item>Advanced Programming in Java</item>
+        <item>Data Structures</item>
+        <item>Discrete Structures</item>
+        <item>Computer Organization and Assembly Language</item>
+        <item>Internet and Web Technologies</item>
+        <item>Advanced Productivity Tools for Business</item>
+        <item>Algorithms I</item>
+        <item>Software Design</item>
+        <item>Compiler Construction</item>
+        <item>Database Systems</item>
+        <item>Distributed Computing</item>
+        <item>Computer Graphics</item>
+        <item>Computability and Complexity</item>
+        <item>Software Development Practicum</item>
+        <item>Research Practicum</item>
+        <item>Master\'s Thesis</item>
+        <item>Hardware Design Practicum</item>
+        <item>Computer Architecture and Networks</item>
+        <item>Switching Theory</item>
+        <item>Computer Systems</item>
+        <item>Computer Networks</item>
+        <item>Numerical Methods</item>
+        <item>Algorithms II</item>
+        <item>Topics in Systems Simulation</item>
+        <item>Computational Finance</item>
+        <item>Probabilistic Models in Computer Systems</item>
+        <item>Special Topics in Computer Science</item>
+        <item>Special Topics in Computer Science</item>
+        <item>Special Topics in Computer Science</item>
+        <item>Special Topics in Computer Science</item>
+        <item>Special Topics in Computer Science</item>
+        <item>Computer Science: Cooperative Education Placement</item>
+        <item>Seminars in Computer Science</item>
+        <item>Seminars in Computer Science</item>
+        <item>Seminars in Computer Science</item>
+        <item>Seminars in Computer Science</item>
+        <item>Seminars in Computer Science</item>
+        <item>Research</item>
+    </string-array>
+
+</resources>

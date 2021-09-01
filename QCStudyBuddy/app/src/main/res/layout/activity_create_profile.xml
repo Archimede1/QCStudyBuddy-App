@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_slanted_gradient__1_"
+    tools:context=".CreateProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/createProfileTV"
+                android:text="Create Your New Profile"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/createProfLL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Bio"
+                android:textColorHint="@color/colorPrimaryDark"/>
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Nickname"
+                android:textColorHint="@color/colorPrimaryDark"/>
+            <AutoCompleteTextView
+                android:id="@+id/pronouns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Pronouns"
+                android:inputType="textAutoComplete"
+                android:textColorHint="@color/white"/>
+            <EditText
+                android:id="@+id/graduationDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Graduation Date"
+                android:textColorHint="@color/colorPrimaryDark"/>
+            <EditText
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Website"
+                android:textColorHint="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/createProfLL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/personalProfileTV"
+                android:text="Personal Information"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="50dp"/>
+
+            <EditText
+                android:id="@+id/birthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Birthday"
+                android:textColorHint="@color/colorPrimaryDark"/>
+            <AutoCompleteTextView
+                android:id="@+id/sex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Sex"
+                android:inputType="textAutoComplete"
+                android:textColorHint="@color/white"/>
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/text_box"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColorHint="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:background="@drawable/btn_background"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/continueBtn"/>
+    </LinearLayout>
+
+
+</ScrollView>
